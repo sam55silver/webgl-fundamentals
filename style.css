@@ -1,0 +1,33 @@
+body {
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+#uiContainer {
+  position: fixed;
+  top:0;
+  right: 0;
+  margin: 15px;
+}
+
+#ui {
+  color: white;
+}
+
+#ui > div {
+  display: grid;
+  grid-template-columns: auto 200px 40px;
+  gap:20px;
+  align-items: center;
+}
+
+#canvas {
+  width: 640px;
+  height: 480px;
+  background: white;
+  border: 2px solid black;
+}
+
