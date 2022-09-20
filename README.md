@@ -6,8 +6,8 @@ The main branch is dedicated to the initial set up of a webGL program and a simp
 
 ### Viewing examples
 To run these examples clone and cd into the branch and do the following
-'''
+```
 npm install
 npm run dev
-'''
+```
 This will run a development server hosted on port 3000 to view the example.
